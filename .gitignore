@@ -1,1 +1,17 @@
-*.o
+# exclude all binary file under any child directory
+**/*.o
+**/*.exe
+
+# exclude all archives under any child directory
+**/*.zip
+**/*.rar
+**/*.7z
+**/*.gz
+**/*.tar
+**/*.tgz
+
+# exclude all archives under any child directory
+.idea
+.vscode
+**/.vscode
+**/.idea
