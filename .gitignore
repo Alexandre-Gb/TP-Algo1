@@ -10,8 +10,6 @@
 **/*.tar
 **/*.tgz
 
-# exclude all archives under any child directory
-.idea
-.vscode
+# exclude all IDE configurations
 **/.vscode
 **/.idea
