@@ -1,0 +1,9 @@
+Est-ce que c'est toujours la même grille qu'on joue ? Comment résoudre ce problème ?
+
+
+Oui, on joue souvent la même grille.
+Pour régler le problème, on génère des valeurs aléatoires au travers d'une donnée qui ne dépend pas d'une logique informatique. De nombreuses méthodes existent 
+afin d'obtenir une valeur aléatoire ainsi, la plus simple étant de se baser sur la date et l'heure de lancement du programme.
+
+On ajoute donc "srand(time(NULL));" au sein de la fonction main du programme, afin d'incorporer une "randomisation" dans les valeurs de notre grille, permettant 
+ainsi de ne pas jouer la même constamment.
